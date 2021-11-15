@@ -17,7 +17,7 @@ namespace DriveRatingApp
 
         public override void MenuFlow(List<TeamMember> teamMembers)
         {
-            Console.WriteLine("What would you like to do?\n[1]Update TM DRIVE rating\n[2]View bonus report");
+            Console.WriteLine("What would you like to do?\n[1]Update TM DRIVE rating\n[2]View bonus report:");
             string response = Console.ReadLine();
             switch (response)
             {
